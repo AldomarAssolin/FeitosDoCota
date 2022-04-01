@@ -5874,6 +5874,18 @@ a.close.disabled {
   object-fit: fill;
 }
 
+@media (max-width:768px) {
+  .carousel-item{
+    height: 70vh;
+  }
+}
+
+@media (max-width:576px) {
+  .carousel-item{
+    height: 50vh;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .carousel-item {
     transition: none;
